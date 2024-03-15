@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    background-color: #293f50; /* upper section with the background color */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    padding-top: 50px;
+}
+
+.navbar .left{
+    font-family: system-ui; /* font family as system-ui  */
+    /* font-size: 15px; */
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.left h1{
+    font-weight: 90; /* font weight to 90  */
+    color: white;
+    font-size: 40px;
+}
+
+.navbar .right{
+    float: right;
+    line-height: 45px;
+}
+
+
+ .dateCountry{
+    float: right;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.dateCountry h4{
+    font-weight: 120;
+    word-spacing: 10px;
+    color: lightseagreen; /* date and country name in lightseagreen color  */
+}
+
+.navigation{
+    display: flex;
+    gap: 2rem;
+    font-family: system-ui;
+    
+} 
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.middle h3{
+    font-weight: 100;
+    font-size: 40px;
+    font-family: system-ui;
+    color: lightseagreen;
+}
+
+.middle p{
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    font-family: system-ui;
+    line-height: 50px;
+}
+
+.registerButton{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.registerButton button{ 
+    font-size: 20px;
+    padding: 20px;
+    background-color: #293f50;
+    color: white;   
+    border: 1px solid white; 
+    border-radius: 10px; /* register button radius to 10px */
+}
+
+.container2{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 260px;
+    padding-right: 200px;
+}
+
+.container2 .speakers{ /* speaker section  */
+    width: 310px;
+    color: gray;
+}
+
+.container2 .schedule{ /* schedule section  */
+    width: 310px;
+    color: gray;
+}
+
+.container2 .venue{ /* venue section */
+    width: 310px;
+    color: gray;
+}
+
+.speakerImg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.speakerImg img{
+    border-radius: 10px;
+}
+
+.scheduleImg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.scheduleImg img{
+    border-radius: 10px;
+}
+
+
+.venueImg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.venueImg img{
+    border-radius: 10px;
+}
+
+.container3{
+    width: 100%;
+    height: 120px;
+    background-color: #293f50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.container3 .copyright{ /* this is copyright at the bottom of the page */
+    color: white;
+    display: flex;
+}
+
+.container3 .navigation2{ /* navigation bar at the bottom of the page */
+    color: white;
+    display: flex;
+    gap: 1rem;
+    font-family: system-ui;
+    font-weight: 100;
+}
+
+.container3 .navigation2 a{
+    color: white;
+    text-decoration: none;
+}
